@@ -1,0 +1,64 @@
+\hypertarget{classmodAlphaCipher}{}\doxysection{Класс mod\+Alpha\+Cipher}
+\label{classmodAlphaCipher}\index{modAlphaCipher@{modAlphaCipher}}
+
+
+класс для шифровки методом маршрутной перестановки  
+
+
+
+
+{\ttfamily \#include $<$mod\+Alpha\+Cipher.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodAlphaCipher_a4f0a86c20f5d836f66cb1e640d875e6b}\label{classmodAlphaCipher_a4f0a86c20f5d836f66cb1e640d875e6b}} 
+\mbox{\hyperlink{classmodAlphaCipher_a4f0a86c20f5d836f66cb1e640d875e6b}{mod\+Alpha\+Cipher}} ()=delete
+\begin{DoxyCompactList}\small\item\em Удаление конструкторов без параметров \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmodAlphaCipher_a9356622063f30c2661adcde5992a314b}{mod\+Alpha\+Cipher}} (const int \&key)
+\begin{DoxyCompactList}\small\item\em Объявляется конструктор для класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}}, который принимает константную ссылку на объект типа int в качестве аргумента key. Далее, через инициализацию списка членов, в конструкторе устанавливается значение переменной newkey равным значению key. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmodAlphaCipher_a6c6305969b8a57ac1c1c9cc5f5215b6d}{mod\+Alpha\+Cipher}} (const string \&skey)
+\begin{DoxyCompactList}\small\item\em Объявляется конструктор для класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}}, который принимает константную ссылку на объект типа string в качестве аргумента. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmodAlphaCipher_a8d869faafb0dffc2a5a7002760e72f40}\label{classmodAlphaCipher_a8d869faafb0dffc2a5a7002760e72f40}} 
+string \mbox{\hyperlink{classmodAlphaCipher_a8d869faafb0dffc2a5a7002760e72f40}{encrypt}} (const string \&open\+\_\+st)
+\begin{DoxyCompactList}\small\item\em Объявляется функция encrypt, которая принимает константную ссылку на объект типа string в качестве аргумента и возвращает объект типа string. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmodAlphaCipher_a332737e00121b42373dad9dd0081189f}\label{classmodAlphaCipher_a332737e00121b42373dad9dd0081189f}} 
+string \mbox{\hyperlink{classmodAlphaCipher_a332737e00121b42373dad9dd0081189f}{decrypt}} (const string \&cipher\+\_\+st)
+\begin{DoxyCompactList}\small\item\em Объявляется функция decrypt, которая принимает константную ссылку на объект типа string в качестве аргумента и возвращает объект типа string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+класс для шифровки методом маршрутной перестановки 
+
+\begin{DoxyWarning}{Предупреждения}
+класс работает только на английском языке 
+\end{DoxyWarning}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classmodAlphaCipher_a9356622063f30c2661adcde5992a314b}\label{classmodAlphaCipher_a9356622063f30c2661adcde5992a314b}} 
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{modAlphaCipher()}{modAlphaCipher()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily mod\+Alpha\+Cipher\+::mod\+Alpha\+Cipher (\begin{DoxyParamCaption}\item[{const int \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Объявляется конструктор для класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}}, который принимает константную ссылку на объект типа int в качестве аргумента key. Далее, через инициализацию списка членов, в конструкторе устанавливается значение переменной newkey равным значению key. 
+
+Таким образом, этот конструктор позволяет инициализировать объект класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}} с использованием целочисленного ключа. \mbox{\Hypertarget{classmodAlphaCipher_a6c6305969b8a57ac1c1c9cc5f5215b6d}\label{classmodAlphaCipher_a6c6305969b8a57ac1c1c9cc5f5215b6d}} 
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\index{modAlphaCipher@{modAlphaCipher}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{modAlphaCipher()}{modAlphaCipher()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily mod\+Alpha\+Cipher\+::mod\+Alpha\+Cipher (\begin{DoxyParamCaption}\item[{const string \&}]{skey }\end{DoxyParamCaption})}
+
+
+
+Объявляется конструктор для класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}}, который принимает константную ссылку на объект типа string в качестве аргумента. 
+
+Этот конструктор предназначен для инициализации объекта класса \mbox{\hyperlink{classmodAlphaCipher}{mod\+Alpha\+Cipher}} с использованием строки ключа типа string. 
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+mod\+Alpha\+Cipher.\+h\item 
+mod\+Alpha\+Cipher.\+cpp\end{DoxyCompactItemize}
