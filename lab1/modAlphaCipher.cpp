@@ -1,8 +1,5 @@
 #include "modAlphaCipher.h"
-modAlphaCipher::modAlphaCipher(const string& newkey)
-{
-	
-}
+
 string modAlphaCipher::decrypt(const string& cipher_st) 
 {
 	string s = getValidOpenText(cipher_st);
