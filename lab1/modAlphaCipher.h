@@ -31,10 +31,7 @@ private:
  * @brief Объявляется функция getValidOpenText,которая принимает константную ссылку на объект типа string в качестве аргумента и возвращает объект типа string.
 */
     string getValidOpenText(const string & s);
-/**
- * @brief Объявляется функция getValidKey,которая принимает константную ссылку на объект типа wstring в качестве аргумента и возвращает объект типа wstring.
-*/
-    string getValidKey(const string & newkey);
+
 public:
 /**
  * @brief Удаление конструкторов без параметров
